@@ -1,0 +1,31 @@
+<% include ../partials/header.ejs %>
+<% include ../partials/navbar.ejs %>
+<main class="container">
+    <h1>Users</h1>
+
+    <a href="/multiple/add">Create New Survey</a>
+
+    <ul class="list-group">
+        <% for (var i = 0; i < mcq.length; i++) { %>
+            <li class="list-group-item">
+                Question: 
+                <a href="/multiple/<%= mcq[i]._id %>" title="Edit Question">
+                    <%= mcq[i].question %>
+                </a>
+                <br />
+                Option 1: <%= mcq[i].option1 %>
+                <br />
+                Option 2: <%= mcq[i].option2 %>
+                <br />
+                Option 3: <%= mcq[i].option3 %>
+                <br />
+                Option 4: <%= mcq[i].option4 %>
+                <br />
+                Created: <%= mcq[i].created.toDateString() %>
+                <br />
+                Updated: <%= mcq[i].updated.toDateString() %>
+            </li>
+        <% } %>
+    </ul>
+</main>
+<% include ../partials/footer.ejs %>
