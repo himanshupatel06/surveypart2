@@ -280,3 +280,18 @@ footer{
 .content img {
   float: left;
 }
+
+
+#div2 {
+    
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:right;
+    	      
+}
+#divv1 {
+    width:200px;
+    float:left;
+    padding:5px;	 	 
+}

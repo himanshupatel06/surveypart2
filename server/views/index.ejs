@@ -2,7 +2,7 @@
 <% include partials/navbar.ejs %>
 
     <main class="container">
-        <h1><%= title %> Page</h1>
+        
         <div class="content">
         <section id="services" class="services text-center">
     <div class="section-padding">
@@ -23,37 +23,38 @@
                     <i class="fa fa-lightbulb-o"></i>
                   </div><!-- /.item-icon -->
                   <div class="item-details">
-                    <h4 class="item-title">Send Survey</h4><!-- /.item-title -->
-                    <p class="item-description">
-                      When you will complete survey it will send the link of the survey through E-mail to whome you want to send.
+                    <h4 class="item-title">Create Survey</h4><!-- /.item-title -->
+                    <p class="item-description"></br>
+                      Create survey or start using one of existing template.
                     </p><!-- /.item-description -->
                   </div><!-- /.item-details -->
                 </div><!-- /.item -->
               </div>
 
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6" max-width: 500px;>
                 <div class="item wow animated fadeInLeft" data-wow-delay=".35s">
                   <div class="item-icon">
                     <i class="fa fa-share"></i>
                   </div><!-- /.item-icon -->
                   <div class="item-details">
-                    <h4 class="item-title">Get Feedback for Survey</h4><!-- /.item-title -->
+                    <h4 class="item-title">Send Survey</h4><!-- /.item-title -->
                     <p class="item-description">
-                      Get a feedback from the people that you have send.
+                    When you will complete survey it will send the link of the survey through E-mail to whome you want to send.
+                     
                     </p><!-- /.item-description -->
                   </div><!-- /.item-details -->
                 </div><!-- /.item -->
               </div>
               
-              div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6">
                 <div class="item wow animated fadeInRight" data-wow-delay=".35s">
                   <div class="item-icon">
                     <i class="fa fa-reply-all"></i>
                   </div><!-- /.item-icon -->
                   <div class="item-details">
-                    <h4 class="item-title">Latest Max CDN Service</h4><!-- /.item-title -->
-                    <p class="item-description">
-                      Definite amount of matter in visible universe, a number of molecules and atoms in huge number
+                    <h4 class="item-title">Get Feedback For Survey</h4><!-- /.item-title -->
+                    <p class="item-description"></br>
+                      Dhen user get the link of survey he/she will provide the feedback on it.
                     </p><!-- /.item-description -->
                   </div><!-- /.item-details -->
                 </div><!-- /.item -->
@@ -65,9 +66,9 @@
                     <i class="fa fa-pie-chart"></i>
                   </div><!-- /.item-icon -->
                   <div class="item-details">
-                    <h4 class="item-title">Latest Max CDN Service</h4><!-- /.item-title -->
-                    <p class="item-description">
-                      Definite amount of matter in visible universe, a number of molecules and atoms in huge number
+                    <h4 class="item-title">Analyze</h4><!-- /.item-title -->
+                    <p class="item-description"></br>
+                      After receiving feedback from the users analysing process is carried out.
                     </p><!-- /.item-description -->
                   </div><!-- /.item-details -->
                 </div><!-- /.item -->
@@ -85,8 +86,13 @@
   <!-- Service Section-->
 
         
-        </div>
         
+        </div>
+        <div align="right" width="100px" height="50px">
+        <a href="/register">
+         <input type="button" class="btn btn-success" value="Strat Today. Get registered."/>
+         </a>
+        </div>
     </main>
 <% include partials/footer.ejs %>
     
