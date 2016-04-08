@@ -21,7 +21,7 @@
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
 
 
-
+.navbar-header img {position:fixed;left:0;top:0}
 /* footers are fixed to the bottom of the page */
 
 body{
